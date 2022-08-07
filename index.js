@@ -28,7 +28,7 @@ const topLevelKeysUnderFormDirectory = new Set(topLevelKeysWithDuplicates);
 // * from the lydia directory back to the form directory
 
 const enYmlFilename = "en.yml";
-const ymlOutputFilename = "en.fixed.yml";
+const ymlOutputFilename = "en.yml";
 // const enYmlFilename = "example.yml";
 // const ymlOutputFilename = "example.output.yml";
 const logFilename = "logs.txt";
@@ -56,7 +56,7 @@ try {
     fs.appendFileSync(path.resolve(logFilename), logMessage);
   }
 
-  const ymlOutput = yaml.dump(enYml);
+  const ymlOutput = yaml.dump(enYml, { skipInvalid: true, lineWidth: -1 });
   fs.writeFileSync(path.resolve(ymlOutputFilename), ymlOutput);
 } catch (error) {
   console.error("Oops! something went wrong!", error);
