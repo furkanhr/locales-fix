@@ -1,0 +1,7 @@
+lydia:
+  hey_i_was_already_here: yep!
+  please_dont_touch_me: leave me alone!
+  form:
+    account:
+      label: Account Label
+      title: Account Title
