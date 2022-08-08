@@ -6,7 +6,6 @@ import { EnYml, Dictionary } from "./types";
 logger.cleanup();
 
 const enYmlFilename = "en.yml";
-const ymlOutputFilename = "en.yml";
 // const enYmlFilename = "example.yml";
 // const ymlOutputFilename = "example.output.yml";
 
@@ -45,13 +44,17 @@ const lydiaKeysPath = path.resolve(process.cwd(), "lydia-keys.txt");
 const lydiaKeys = readKeys(lydiaKeysPath);
 
 for (const key of lydiaKeys) {
+  const isValid = !!enYml.en.lydia[key];
+
+  if (!isValid) continue;
+
   fixedEnYml.en.lydia[key] = enYml.en.lydia[key];
 
   delete enYml.en.lydia[key];
 
-  const logMessage = `\nI've found "${key}" under "lydia"`;
-
-  logger.log(logMessage);
+  logger.log(`I've found "${key}" under "lydia"`);
 }
 
 writeYamlFile(enYmlFilename, fixedEnYml);
+
+console.info("✅ Completed Successfully!")
