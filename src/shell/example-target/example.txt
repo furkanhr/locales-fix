@@ -1,0 +1,6 @@
+t("form.first.label", { default: 'hello' })
+t("form.second.title", { default: 'hello' })
+t("form.third.placeholder", { default: 'hello' })
+t("form.fourth_and_last.bilmem_ne", {
+	default: 'hello'
+})

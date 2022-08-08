@@ -5,6 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node dist/index.js",
+    "find:form-keys": "./src/shell/find-form-keys.sh",
+    "clear:keys": "rm ./src/shell/form-keys.txt",
     "sort": "node dist/scripts/sort.js",
     "extract:keys": "node dist/scripts/extractTopLevelKeys.js",
     "extract:paths": "node dist/scripts/extractPathsFromProd.js",

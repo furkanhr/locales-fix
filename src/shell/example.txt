@@ -1,4 +1,0 @@
-t("form.account.label", { default: 'hello' })
-t("form.account.title", { default: 'hello' })
-t("form.account.placeholder", { default: 'hello' })
-t("form.account.bilmem_ne", { default: 'hello' })
