@@ -5,12 +5,14 @@ import { EnYml, Dictionary } from "./types";
 
 logger.cleanup();
 
-const enYmlFilename = "en.yml";
+const enYmlFilename = "en.friday.yml";
+const ymlOutputFilename = "en.fixed.yml";
 // const enYmlFilename = "example.yml";
 // const ymlOutputFilename = "example.output.yml";
 
 const fixedEnYml: EnYml = {
   en: {
+    examples: {},
     lydia: {},
   },
 };
@@ -59,6 +61,9 @@ for (const key of lydiaKeys) {
   logger.log(`I've found "${key}" under "lydia"\n`);
 }
 
-writeYamlFile(enYmlFilename, fixedEnYml);
+// ? Lastly, add the `examples` back, and we're done
+fixedEnYml.en.examples = enYml.en.examples;
 
-console.info("✅ Completed Successfully!")
+writeYamlFile(ymlOutputFilename, fixedEnYml);
+
+logger.log("✅ Completed Successfully!");
