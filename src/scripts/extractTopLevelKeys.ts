@@ -1,6 +1,6 @@
 import path from "path";
 
-import { readFileSync } from "./readFileSync";
+import { readFileSync } from "../utils/readFileSync";
 
 export function extractTopLevelKeys() {
   const tLinesFilename = "t_calls_with_form_keys.txt";
