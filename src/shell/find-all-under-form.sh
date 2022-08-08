@@ -1,7 +1,7 @@
 grep \
 -Erho \
 "t[(][\'\"]form[.]([[:alpha:]_]+).*[)]" \
-~/Workspace/lydia/src/pages/Reservations >> test.txt
+~/Workspace/lydia/src >> t_calls_with_form_keys.txt
 
 # Flags
 # -E	Extended expression (\escape meta-characters to use as literals)
