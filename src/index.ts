@@ -2,7 +2,8 @@ import * as fs from "node:fs";
 import * as path from "node:path";
 import yaml from "js-yaml";
 
-import { extractTopLevelKeys, readYamlFile } from "./utils";
+import { extractTopLevelKeys } from "./scripts";
+import { readYamlFile } from "./utils";
 import { EnYml } from "./types";
 
 const logFilename = "logs.txt";
