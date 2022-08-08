@@ -1,4 +1,4 @@
-
+Extracting "form" keys...
 I've found "add_new_contact" under "lydia" and moved out to "form".
 I've found "enter_contact_name" under "lydia" and moved out to "form".
 I've found "lastname_required" under "lydia" and moved out to "form".
@@ -226,4 +226,21 @@ I've found "extra_category" under "lydia" and moved out to "form".
 I've found "connect_extra_to_room_type" under "lydia" and moved out to "form".
 I've found "extra_unit" under "lydia" and moved out to "form".
 I've found "guests_can_add_extra" under "lydia" and moved out to "form".
-I've found "sales_department" under "lydia" and moved out to "form".I've found "common" under "lydia"I've found "messages" under "lydia"I've found "variants" under "lydia"I've found "dialogs" under "lydia"I've found "menu" under "lydia"I've found "objects" under "lydia"I've found "pages" under "lydia"I've found "modals" under "lydia"I've found "tooltips" under "lydia"I've found "buttons" under "lydia"I've found "page" under "lydia"I've found "table" under "lydia"I've found "badge" under "lydia"I've found "cards" under "lydia"I've found "columns" under "lydia"I've found "prints" under "lydia"
+I've found "sales_department" under "lydia" and moved out to "form".
+Extracting "lydia" keys...
+I've found "common" under "lydia"
+I've found "messages" under "lydia"
+I've found "dialogs" under "lydia"
+I've found "menu" under "lydia"
+I've found "objects" under "lydia"
+I've found "pages" under "lydia"
+I've found "modals" under "lydia"
+I've found "tooltips" under "lydia"
+I've found "buttons" under "lydia"
+I've found "page" under "lydia"
+I've found "table" under "lydia"
+I've found "badge" under "lydia"
+I've found "cards" under "lydia"
+I've found "columns" under "lydia"
+I've found "prints" under "lydia"
+✅ Completed Successfully!
