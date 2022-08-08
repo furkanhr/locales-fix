@@ -41,7 +41,7 @@ for (const key of formKeys) {
   logger.log(logMessage);
 }
 
-fixedEnYml.en.form = form;
+fixedEnYml.en.lydia.form = form;
 
 // * Part 2: Assemble the `lydia` directory
 const lydiaKeysPath = path.resolve(process.cwd(), "lydia-keys.txt");
