@@ -2,8 +2,8 @@ en:
   examples:
     guest_count:
       one: 1 guest
-      other: ! '%{count} guests'
-    variables: ! 'First: %{first} variable, then second variable is %{this_is_second}'
+      other: '%{count} guests'
+    variables: 'First: %{first} variable, then second variable is %{this_is_second}'
   form:
     account: Account
     add_new_channel: Add New Channel
@@ -14,8 +14,8 @@ en:
     adult_capacity: Adult capacity
     adult_capacity_required: Please enter adult capacity
     adult_field:
-      one: ! '%{count} Adult'
-      other: ! '%{count} Adults'
+      one: '%{count} Adult'
+      other: '%{count} Adults'
     age_range_from_greater_than_to_required: Child age range From cannot be greater than To
     age_range_from_required: Age range from is required
     age_range_to_required: Age range to is required
@@ -74,7 +74,7 @@ en:
     cards:
       reservation_detail:
         additional_fee:
-          description: ! 'View and update fees for extra services, taxes and more. '
+          description: 'View and update fees for extra services, taxes and more. '
           empty:
             subtitle: Once you create additional fee, you’ll see them here.
             title: No additional fees yet.
@@ -103,23 +103,23 @@ en:
       reservation_summary:
         daily_rates:
           content:
-            one: ! '%{count} rate'
-            other: ! '%{count} rates'
+            one: '%{count} rate'
+            other: '%{count} rates'
           title: DAILY RATES
         extras:
           content:
-            one: ! '%{count} extra'
-            other: ! '%{count} extras'
+            one: '%{count} extra'
+            other: '%{count} extras'
           title: Extras
         guests_and_contacts:
           content:
-            one: ! '%{count} guest'
-            other: ! '%{count} guests'
+            one: '%{count} guest'
+            other: '%{count} guests'
           title: GUESTS AND CONTACTS
         notes:
           content:
-            one: ! '%{count} note'
-            other: ! '%{count} notes'
+            one: '%{count} note'
+            other: '%{count} notes'
           title: NOTES
         payment:
           title: PAYMENT
@@ -142,7 +142,7 @@ en:
     child_age_range_field: Child age range %{field}
     child_pricing: Child pricing
     children_ages:
-      label: ! 'Children ages:'
+      label: 'Children ages:'
     choose_a_room: Choose a Room
     city:
       label: City
@@ -194,16 +194,16 @@ en:
       adult: Adult
       adult_field:
         one: 1 adult
-        other: ! '%{count} adults'
+        other: '%{count} adults'
       advanced_settings: Advanced settings
-      agreement_flash_message: ! 'To keep your services active, please read and accept the updated Terms and Conditions of HotelRunner before %{time}. '
+      agreement_flash_message: 'To keep your services active, please read and accept the updated Terms and Conditions of HotelRunner before %{time}. '
       agreement_flash_message_button: Read & Accept
       all: All
       all_rooms: All rooms
       amenities: Amenities
       amenities_count:
-        one: ! '%{count} Amenity'
-        other: ! '%{count} Amenities'
+        one: '%{count} Amenity'
+        other: '%{count} Amenities'
       amount: Amount
       amount_paid: Amount paid
       amount_remaining: Amount remaining
@@ -225,14 +225,14 @@ en:
       back: Back
       base_allotment: Base Allotment
       based_in: Based in
-      ! 'being_managed_by ': ! 'Being managed by '
+      being_managed_by: Being managed by
       cancel: Cancel
       change: Change
       charge_for_years_old: Charge for {years} year olds
       child: Child
       child_field:
         one: 1 child
-        other: ! '%{count} children'
+        other: '%{count} children'
       child_pricing_years_old: years old
       clear: Clear
       clear_filter: Clear Filter
@@ -245,7 +245,7 @@ en:
       complete: Complete
       complete_mapping: Complete Mapping
       complete_setup: Complete Setup
-      condition_field: ! '%{field}. Condition'
+      condition_field: '%{field}. Condition'
       connect: Connect
       connect_airbnb: Connect with Airbnb
       content_score: Content score
@@ -260,7 +260,7 @@ en:
       cta: Close to arrival (CTA)
       ctd: Close to departure (CTD)
       currency: Currency
-      currency_format: ! '%u %n'
+      currency_format: '%u %n'
       customize_view: Customize view
       daily: Daily
       date: Date
@@ -273,7 +273,7 @@ en:
       delete_date_range: Delete date range
       delete_master_rate_from_room_types: Main Rates are cannot be deleted from this page
       delete_photo: Delete photo
-      delimiter: ! ','
+      delimiter: ','
       departures: Departures
       deposit_policy_info: Deposit policy description will be automatically updated by input changes.
       description: Description
@@ -320,7 +320,7 @@ en:
       go_for_it: Go for it
       guest_calculation:
         one: 1 guest calculation
-        other: ! '%{count} guests calculation'
+        other: '%{count} guests calculation'
       guest_name: Guest Name
       guests_list: Guest list
       hide: Hide
@@ -339,7 +339,7 @@ en:
       increase_new: Increase base price
       inherited: Inherited
       inventory_count: Total inventory count
-      item_score_field: ! '%{field} points'
+      item_score_field: '%{field} points'
       join: Join
       label: Label
       last_transaction_status: Last transactions status
@@ -406,8 +406,8 @@ en:
       percentage: Percentage
       percentage_new: Adjust based on percentage
       photos_count:
-        one: ! '%{count} Photo'
-        other: ! '%{count} Photos'
+        one: '%{count} Photo'
+        other: '%{count} Photos'
       popular: Popular
       positive: Positive
       premium_info: Upgrade to Business Premium Plan to get online reservations.
@@ -426,8 +426,8 @@ en:
       rate_amount: Rate/Amount
       rates: Rates
       rates_count:
-        one: ! '%{count} Rate'
-        other: ! '%{count} Rates'
+        one: '%{count} Rate'
+        other: '%{count} Rates'
       reactivate: Reactivate
       read_only: Read only
       refresh: Refreh
@@ -437,19 +437,19 @@ en:
       repeat_type: Repeat Type
       reservations: Reservations
       reservations_count:
-        one: ! '%{count} Reservation'
-        other: ! '%{count} Reservations'
+        one: '%{count} Reservation'
+        other: '%{count} Reservations'
       restrictions: Restrictions
       room: Room
       room_type: Room Type
       room_type_field:
-        one: ! '%{count} Room Type'
-        other: ! '%{count} Room Types'
+        one: '%{count} Room Type'
+        other: '%{count} Room Types'
       room_types: Room Types
       rooms: Rooms
       rooms_count:
-        one: ! '%{count} Room'
-        other: ! '%{count} Rooms'
+        one: '%{count} Room'
+        other: '%{count} Rooms'
       save: Save
       save_and_filter: Save & Filter
       save_continue: Save and Continue
@@ -570,7 +570,7 @@ en:
       rate_plan_delete_title: You’re deleting a rate plan
       rate_plan_room_type_delete_content: Are you sure you want to delete %{object1} from the rate plan %{object2}? If deleted, the plan will not be available to guests reserving this room.
       rate_plan_room_type_delete_title: You’re deleting a room type
-      room_type_delete_content: ! 'Are you sure you want to delete %{room_type}. This action can’t be undone. '
+      room_type_delete_content: 'Are you sure you want to delete %{room_type}. This action can’t be undone. '
       room_type_delete_title: You’re deleting a room type
       save_and_filter: Save and Filter
       save_your_changes: Save your changes?
@@ -677,29 +677,29 @@ en:
       setup: Setup
       tax_categories: Tax Categories
     messages:
-      coupon_created: ! '%{name} coupon has been created.'
-      coupon_updated: ! '%{name} coupon has been updated.'
+      coupon_created: '%{name} coupon has been created.'
+      coupon_updated: '%{name} coupon has been updated.'
       extra_category_created: A new extra category has been created.
-      extra_category_deleted: ! '"%{name}" extra category has been deleted.'
-      extra_category_updated: ! '"%{name}" extra category has been updated.'
+      extra_category_deleted: '"%{name}" extra category has been deleted.'
+      extra_category_updated: '"%{name}" extra category has been updated.'
       extra_created: A new extra has been created.
-      extra_deleted: ! '"%{name}" extra has been deleted.'
-      extra_updated: ! '"%{name}" extra has been updated.'
+      extra_deleted: '"%{name}" extra has been deleted.'
+      extra_updated: '"%{name}" extra has been updated.'
       loading: Loading, please wait...
       marked_as_paid: This reservation is marked as paid.
-      market_created: ! '"%{name}" market has been created.'
-      market_deleted: ! '"%{name}" market has been deleted.'
-      market_updated: ! '"%{name}" market has been updated.'
+      market_created: '"%{name}" market has been created.'
+      market_deleted: '"%{name}" market has been deleted.'
+      market_updated: '"%{name}" market has been updated.'
       page_problem: Sorry, there was a problem loading the page.
       please_wait: Please wait
-      revenue_account_created: ! '"%{name}" revenue account has been created.'
-      revenue_account_deleted: ! '"%{name}" revenue account has been deleted.'
-      revenue_account_updated: ! '"%{name}" revenue account has been updated.'
+      revenue_account_created: '"%{name}" revenue account has been created.'
+      revenue_account_deleted: '"%{name}" revenue account has been deleted.'
+      revenue_account_updated: '"%{name}" revenue account has been updated.'
       room_type_updated: Your changes to %{roomType} were saved.
-      room_types_deleted: ! '"%{name}" room type has been deleted.'
-      sales_department_created: ! '"%{name}" sales department has been created.'
-      sales_department_deleted: ! '"%{name}" sales department has been deleted.'
-      sales_department_updated: ! '"%{name}" sales department has been updated.'
+      room_types_deleted: '"%{name}" room type has been deleted.'
+      sales_department_created: '"%{name}" sales department has been created.'
+      sales_department_deleted: '"%{name}" sales department has been deleted.'
+      sales_department_updated: '"%{name}" sales department has been updated.'
       success_created_additional_fee: Additional Fee Created!
       success_created_contact: Contact Created!
       success_created_notes: Note Created!
@@ -713,8 +713,8 @@ en:
       successfully_updated: Successfully updated
       successfully_updated_calendar: Successfully updated your calendar
       tax_category_created: A new tax category has been created.
-      tax_category_deleted: ! '%{category} tax category has been deleted.'
-      tax_category_updated: ! '%{category} tax category has been updated.'
+      tax_category_deleted: '%{category} tax category has been deleted.'
+      tax_category_updated: '%{category} tax category has been updated.'
     minimum_stay: Minimum stay
     modals:
       add_cancellation_policy: Add cancellation policy
@@ -860,13 +860,13 @@ en:
     page:
       reservations:
         reservations_count:
-          one: ! '%{count} reservation'
-          other: ! '%{count} reservations'
+          one: '%{count} reservation'
+          other: '%{count} reservations'
     pages:
       bulk_update:
         changes: Changes
         confirm_and_update: Confirm and Update
-        content_info: ! 'Apply the changes you make on one rate plan to the others.
+        content_info: 'Apply the changes you make on one rate plan to the others.
 
 
           Select "Price - net" from the left menu, write a net amount in the "Price" column and select "Apply down". All price plans will be the amount you type in.
@@ -890,7 +890,7 @@ en:
         coupon_add: Add Coupon
         coupon_count:
           one: 1 Coupon
-          other: ! '%{count} Coupons'
+          other: '%{count} Coupons'
         empty_states_button: Add Coupon
         empty_states_subtitle: Once you create coupon, you'll see them here.
         empty_states_title: No coupons created yet
@@ -909,7 +909,7 @@ en:
         extra_to_category_add: Add Extra to category
         extras_field:
           one: 1 extra
-          other: ! '%{count} extras'
+          other: '%{count} extras'
         subtitle: Increase guest satisfaction by offering services guests can purchase along with their rooms.
         subtitle_learnmore: Learn more about extras.
         title: Extras
@@ -962,7 +962,7 @@ en:
         title: Languages
         translate: Translate
         translate_content: Translate your content
-        translation_language_title: ! '%{language} translation'
+        translation_language_title: '%{language} translation'
       logs:
         channel_name: Channel
         initiator_sign: Source
@@ -1047,7 +1047,7 @@ en:
         verify_language: Verify your region and language settings
         visit_center: Visit Help Center
       property_amenities:
-        subtitle: ! 'Choose the amenities your rooms offer, like a jacuzzi tub or flat screen TV. '
+        subtitle: 'Choose the amenities your rooms offer, like a jacuzzi tub or flat screen TV. '
         title: Room Amenities
       property_engine:
         address_details: Address
@@ -1065,7 +1065,7 @@ en:
         guest_details_title: Guest details
         guest_info: Info about additional guests
         guest_info_in: Ask for the name and birthday of each guest included in the reservation.
-        heading_v1: ! 'Request this info:'
+        heading_v1: 'Request this info:'
         heading_v2: Terms of service
         heading_v3: ID required
         number_adult_limit: The number of adults limit per room
@@ -1146,7 +1146,7 @@ en:
         property_info_subtitle: Manage your payment methods, contact information and more.
         property_info_title: Property info
         room_amenities_button_text: Manage Room Amenities
-        room_amenities_subtitle: ! 'Choose the amenities your rooms offer, like a jacuzzi tub or flat screen TV. '
+        room_amenities_subtitle: 'Choose the amenities your rooms offer, like a jacuzzi tub or flat screen TV. '
         room_amenities_title: Room amenities
         subtitle: Manage all your property settings in one spot. Set policies, add photos, choose amenities and more.
         title: Property Settings
@@ -1290,7 +1290,7 @@ en:
         reservation_number: Reservation number
         reservations:
           one: 1 reservation
-          other: ! '%{count} reservations'
+          other: '%{count} reservations'
         reservations_empty_state: You don't have any reservations yet
         reservations_empty_state_subtitle: You can create your first reservation by clicking “New Reservation” button.
         room_calendar: Room Calendar
@@ -1299,16 +1299,16 @@ en:
         room_type_empty_state_subtitle: In order to create a reservation you need to create a room type first.
         unassigned_reservations:
           one: 1 unassigned reservation
-          other: ! '%{count} unassigned reservations'
+          other: '%{count} unassigned reservations'
       room_type_edit:
         add_new_photos: Add New Photos
         add_new_room: Add New Room
         amenities: Amenities
-        amenities_card_subtitle: ! 'Choose the amenities your rooms offer, like a jacuzzi tub or flat screen TV. '
+        amenities_card_subtitle: 'Choose the amenities your rooms offer, like a jacuzzi tub or flat screen TV. '
         amenities_card_title: Room amenities
         amenities_field:
-          one: ! '%{count} amenity'
-          other: ! '%{count} amenities'
+          one: '%{count} amenity'
+          other: '%{count} amenities'
         discard_changes: Discard Changes
         gallery: Gallery
         gallery_card_subtitle: Upload photos to showcase your room's best features.
@@ -1319,20 +1319,20 @@ en:
         navigate_modal_content: You've made some changes on this page. They won't be saved if you leave now.
         navigate_modal_title: Sure you want to leave?
         photos_field:
-          one: ! '%{count} photo'
-          other: ! '%{count} photos'
+          one: '%{count} photo'
+          other: '%{count} photos'
         rate_plans_card_title: Rate plans
         rates: Rates
         rates_field:
-          one: ! '%{count} rate'
-          other: ! '%{count} rates'
+          one: '%{count} rate'
+          other: '%{count} rates'
         room_add: Add New Room
         rooms: Rooms
         rooms_card_subtitle: Choose number of beds, room identifiers, and more
         rooms_card_title: Room details
         rooms_field:
-          one: ! '%{count} room'
-          other: ! '%{count} rooms'
+          one: '%{count} room'
+          other: '%{count} rooms'
         rooms_identifier: Rooms identifier
         save_and_cancel: Save & Continue
         subtitle: Configure your room details and highlight its best features.
@@ -1349,8 +1349,8 @@ en:
         step6_title: Upload room photos
       room_types:
         card_title:
-          one: ! '%{count} Room Type'
-          other: ! '%{count} Room Types'
+          one: '%{count} Room Type'
+          other: '%{count} Room Types'
         empty_button: Create Room Type
         empty_subtitle: Please add a room type.
         empty_subtitle_new: Highlight your room’s best features in your setup and start attracting guests.
@@ -1514,7 +1514,7 @@ en:
     price_required: Enter price
     price_settings: Price Settings
     price_tooltip: Apply your chosen rate plan, or enter a unique price.
-    price_type: ! 'Price calculated:'
+    price_type: 'Price calculated:'
     prints:
       reservation_detail:
         check_in_date: Check-in Date
@@ -1541,7 +1541,7 @@ en:
     repeat_type:
       label: Repeat type
       placeholder: 
-    required_field: ! '%{field} is required'
+    required_field: '%{field} is required'
     reservation_id: Reservation ID
     reservation_number: Reservation number
     reservation_source: Reservation source
@@ -1643,8 +1643,8 @@ en:
       label: Tags
       placeholder: Choose tags
       required: Please select tags from list
-    tax_by_period: ! 'Tax by time period:'
-    tax_by_unit: ! 'Tax by unit:'
+    tax_by_period: 'Tax by time period:'
+    tax_by_unit: 'Tax by unit:'
     tax_category_name: Tax category name
     tax_id:
       label: Tax ID
@@ -1662,7 +1662,7 @@ en:
     tooltips:
       auto_confirm: Manually confirm your reservations, or have each confirmed automatically.
       base_price: This is your room's default price. If your room rates are unable to load, guests will see this price on sales channels. We recommend entering a value as high as your most expensive rate.
-      bulk_update_cta: ! 'Restrict guests from arriving on specific dates. Useful during holidays to lighten the property staff’s workload. '
+      bulk_update_cta: 'Restrict guests from arriving on specific dates. Useful during holidays to lighten the property staff’s workload. '
       bulk_update_ctd: Restrict guests from departing on specific dates. Useful during holidays to lighten the property staff’s workload.
       bulk_update_minimum_stay: Encourage longer stays by setting a minimum stay length. Especially useful around holidays.
       bulk_update_stop_sell: Stop the sale of rate plans for certain date ranges. Useful during low seasons.
@@ -1683,14 +1683,14 @@ en:
       inventory_calendar_no_data: There is no data for this date.
       inventory_calendar_no_reservation:
         one: 1 room is available.
-        other: ! '%{remainingAvailability} rooms are available.'
+        other: '%{remainingAvailability} rooms are available.'
       inventory_calendar_overbooked: This room is overbooked.
       inventory_calendar_remaining_availability:
         one: 1 is still available.
-        other: ! '{remainingAvailability} are still available.'
+        other: '{remainingAvailability} are still available.'
       inventory_calendar_reserved:
         one: 1 out of %{totalAvailability} room is reserved.
-        other: ! '%{reservation} out of %{totalAvailability} rooms are reserved.'
+        other: '%{reservation} out of %{totalAvailability} rooms are reserved.'
       market_countries: Choose the countries included in this market.
       market_currency: Choose in which currency you will sell to this market.
       market_rate_plans: Choose the rate plans you will offer to this market.
@@ -1711,7 +1711,7 @@ en:
       room_type_new_display_name: This name appears in search results when guests search for available rooms.
       room_type_new_number_of_rooms: Choose how many of this room type your property has.
       room_type_new_revenue_account: This helps you store different types of sales transactions (e.g., accommodation, extras, beverage) within different accounts.
-      room_type_new_room_type: ! 'The kind of room you choose can affect its features. For example, choosing “dormitory” lets multiple guests reserve the same room. '
+      room_type_new_room_type: 'The kind of room you choose can affect its features. For example, choosing “dormitory” lets multiple guests reserve the same room. '
       room_type_new_total_capacity: The total number of adults and children that can stay in this type of room.
       room_types_main_rate_delete: Main Rates cannot be deleted
       sales_department: Assign the extra to the relevant sales department.
@@ -1750,8 +1750,8 @@ en:
     adult_capacity: Adult capacity
     adult_capacity_required: Please enter adult capacity
     adult_field:
-      one: ! '%{count} Adult'
-      other: ! '%{count} Adults'
+      one: '%{count} Adult'
+      other: '%{count} Adults'
     age_range_from_greater_than_to_required: Child age range From cannot be greater than To
     age_range_from_required: Age range from is required
     age_range_to_required: Age range to is required
@@ -1810,7 +1810,7 @@ en:
     cards:
       reservation_detail:
         additional_fee:
-          description: ! 'View and update fees for extra services, taxes and more. '
+          description: 'View and update fees for extra services, taxes and more. '
           empty:
             subtitle: Once you create additional fee, you’ll see them here.
             title: No additional fees yet.
@@ -1839,23 +1839,23 @@ en:
       reservation_summary:
         daily_rates:
           content:
-            one: ! '%{count} rate'
-            other: ! '%{count} rates'
+            one: '%{count} rate'
+            other: '%{count} rates'
           title: DAILY RATES
         extras:
           content:
-            one: ! '%{count} extra'
-            other: ! '%{count} extras'
+            one: '%{count} extra'
+            other: '%{count} extras'
           title: Extras
         guests_and_contacts:
           content:
-            one: ! '%{count} guest'
-            other: ! '%{count} guests'
+            one: '%{count} guest'
+            other: '%{count} guests'
           title: GUESTS AND CONTACTS
         notes:
           content:
-            one: ! '%{count} note'
-            other: ! '%{count} notes'
+            one: '%{count} note'
+            other: '%{count} notes'
           title: NOTES
         payment:
           title: PAYMENT
@@ -1878,7 +1878,7 @@ en:
     child_age_range_field: Child age range %{field}
     child_pricing: Child pricing
     children_ages:
-      label: ! 'Children ages:'
+      label: 'Children ages:'
     choose_a_room: Choose a Room
     city:
       label: City
@@ -1930,16 +1930,16 @@ en:
       adult: Adult
       adult_field:
         one: 1 adult
-        other: ! '%{count} adults'
+        other: '%{count} adults'
       advanced_settings: Advanced settings
-      agreement_flash_message: ! 'To keep your services active, please read and accept the updated Terms and Conditions of HotelRunner before %{time}. '
+      agreement_flash_message: 'To keep your services active, please read and accept the updated Terms and Conditions of HotelRunner before %{time}. '
       agreement_flash_message_button: Read & Accept
       all: All
       all_rooms: All rooms
       amenities: Amenities
       amenities_count:
-        one: ! '%{count} Amenity'
-        other: ! '%{count} Amenities'
+        one: '%{count} Amenity'
+        other: '%{count} Amenities'
       amount: Amount
       amount_paid: Amount paid
       amount_remaining: Amount remaining
@@ -1961,14 +1961,14 @@ en:
       back: Back
       base_allotment: Base Allotment
       based_in: Based in
-      ! 'being_managed_by ': ! 'Being managed by '
+      ! 'being_managed_by ': 'Being managed by '
       cancel: Cancel
       change: Change
       charge_for_years_old: Charge for {years} year olds
       child: Child
       child_field:
         one: 1 child
-        other: ! '%{count} children'
+        other: '%{count} children'
       child_pricing_years_old: years old
       clear: Clear
       clear_filter: Clear Filter
@@ -1981,7 +1981,7 @@ en:
       complete: Complete
       complete_mapping: Complete Mapping
       complete_setup: Complete Setup
-      condition_field: ! '%{field}. Condition'
+      condition_field: '%{field}. Condition'
       connect: Connect
       connect_airbnb: Connect with Airbnb
       content_score: Content score
@@ -1996,7 +1996,7 @@ en:
       cta: Close to arrival (CTA)
       ctd: Close to departure (CTD)
       currency: Currency
-      currency_format: ! '%u %n'
+      currency_format: '%u %n'
       customize_view: Customize view
       daily: Daily
       date: Date
@@ -2009,7 +2009,7 @@ en:
       delete_date_range: Delete date range
       delete_master_rate_from_room_types: Main Rates are cannot be deleted from this page
       delete_photo: Delete photo
-      delimiter: ! ','
+      delimiter: ','
       departures: Departures
       deposit_policy_info: Deposit policy description will be automatically updated by input changes.
       description: Description
@@ -2056,7 +2056,7 @@ en:
       go_for_it: Go for it
       guest_calculation:
         one: 1 guest calculation
-        other: ! '%{count} guests calculation'
+        other: '%{count} guests calculation'
       guest_name: Guest Name
       guests_list: Guest list
       hide: Hide
@@ -2075,7 +2075,7 @@ en:
       increase_new: Increase base price
       inherited: Inherited
       inventory_count: Total inventory count
-      item_score_field: ! '%{field} points'
+      item_score_field: '%{field} points'
       join: Join
       label: Label
       last_transaction_status: Last transactions status
@@ -2142,8 +2142,8 @@ en:
       percentage: Percentage
       percentage_new: Adjust based on percentage
       photos_count:
-        one: ! '%{count} Photo'
-        other: ! '%{count} Photos'
+        one: '%{count} Photo'
+        other: '%{count} Photos'
       popular: Popular
       positive: Positive
       premium_info: Upgrade to Business Premium Plan to get online reservations.
@@ -2162,8 +2162,8 @@ en:
       rate_amount: Rate/Amount
       rates: Rates
       rates_count:
-        one: ! '%{count} Rate'
-        other: ! '%{count} Rates'
+        one: '%{count} Rate'
+        other: '%{count} Rates'
       reactivate: Reactivate
       read_only: Read only
       refresh: Refreh
@@ -2173,19 +2173,19 @@ en:
       repeat_type: Repeat Type
       reservations: Reservations
       reservations_count:
-        one: ! '%{count} Reservation'
-        other: ! '%{count} Reservations'
+        one: '%{count} Reservation'
+        other: '%{count} Reservations'
       restrictions: Restrictions
       room: Room
       room_type: Room Type
       room_type_field:
-        one: ! '%{count} Room Type'
-        other: ! '%{count} Room Types'
+        one: '%{count} Room Type'
+        other: '%{count} Room Types'
       room_types: Room Types
       rooms: Rooms
       rooms_count:
-        one: ! '%{count} Room'
-        other: ! '%{count} Rooms'
+        one: '%{count} Room'
+        other: '%{count} Rooms'
       save: Save
       save_and_filter: Save & Filter
       save_continue: Save and Continue
@@ -2306,7 +2306,7 @@ en:
       rate_plan_delete_title: You’re deleting a rate plan
       rate_plan_room_type_delete_content: Are you sure you want to delete %{object1} from the rate plan %{object2}? If deleted, the plan will not be available to guests reserving this room.
       rate_plan_room_type_delete_title: You’re deleting a room type
-      room_type_delete_content: ! 'Are you sure you want to delete %{room_type}. This action can’t be undone. '
+      room_type_delete_content: 'Are you sure you want to delete %{room_type}. This action can’t be undone. '
       room_type_delete_title: You’re deleting a room type
       save_and_filter: Save and Filter
       save_your_changes: Save your changes?
@@ -2356,8 +2356,8 @@ en:
       adult_capacity: Adult capacity
       adult_capacity_required: Please enter adult capacity
       adult_field:
-        one: ! '%{count} Adult'
-        other: ! '%{count} Adults'
+        one: '%{count} Adult'
+        other: '%{count} Adults'
       age_range_from_greater_than_to_required: Child age range From cannot be greater than To
       age_range_from_required: Age range from is required
       age_range_to_required: Age range to is required
@@ -2414,7 +2414,7 @@ en:
       child_age_range_field: Child age range %{field}
       child_pricing: Child pricing
       children_ages:
-        label: ! 'Children ages:'
+        label: 'Children ages:'
       choose_a_room: Choose a Room
       city:
         label: City
@@ -2632,7 +2632,7 @@ en:
       price_required: Enter price
       price_settings: Price Settings
       price_tooltip: Apply your chosen rate plan, or enter a unique price.
-      price_type: ! 'Price calculated:'
+      price_type: 'Price calculated:'
       promotions: Promotions
       property_offers_child_pricing: The property offers child pricing
       property_operates: The property operates
@@ -2653,7 +2653,7 @@ en:
       repeat_type:
         label: Repeat type
         placeholder: 
-      required_field: ! '%{field} is required'
+      required_field: '%{field} is required'
       reservation_id: Reservation ID
       reservation_number: Reservation number
       reservation_source: Reservation source
@@ -2721,8 +2721,8 @@ en:
         label: Tags
         placeholder: Choose tags
         required: Please select tags from list
-      tax_by_period: ! 'Tax by time period:'
-      tax_by_unit: ! 'Tax by unit:'
+      tax_by_period: 'Tax by time period:'
+      tax_by_unit: 'Tax by unit:'
       tax_category_name: Tax category name
       tax_id:
         label: Tax ID
@@ -2826,29 +2826,29 @@ en:
       setup: Setup
       tax_categories: Tax Categories
     messages:
-      coupon_created: ! '%{name} coupon has been created.'
-      coupon_updated: ! '%{name} coupon has been updated.'
+      coupon_created: '%{name} coupon has been created.'
+      coupon_updated: '%{name} coupon has been updated.'
       extra_category_created: A new extra category has been created.
-      extra_category_deleted: ! '"%{name}" extra category has been deleted.'
-      extra_category_updated: ! '"%{name}" extra category has been updated.'
+      extra_category_deleted: '"%{name}" extra category has been deleted.'
+      extra_category_updated: '"%{name}" extra category has been updated.'
       extra_created: A new extra has been created.
-      extra_deleted: ! '"%{name}" extra has been deleted.'
-      extra_updated: ! '"%{name}" extra has been updated.'
+      extra_deleted: '"%{name}" extra has been deleted.'
+      extra_updated: '"%{name}" extra has been updated.'
       loading: Loading, please wait...
       marked_as_paid: This reservation is marked as paid.
-      market_created: ! '"%{name}" market has been created.'
-      market_deleted: ! '"%{name}" market has been deleted.'
-      market_updated: ! '"%{name}" market has been updated.'
+      market_created: '"%{name}" market has been created.'
+      market_deleted: '"%{name}" market has been deleted.'
+      market_updated: '"%{name}" market has been updated.'
       page_problem: Sorry, there was a problem loading the page.
       please_wait: Please wait
-      revenue_account_created: ! '"%{name}" revenue account has been created.'
-      revenue_account_deleted: ! '"%{name}" revenue account has been deleted.'
-      revenue_account_updated: ! '"%{name}" revenue account has been updated.'
+      revenue_account_created: '"%{name}" revenue account has been created.'
+      revenue_account_deleted: '"%{name}" revenue account has been deleted.'
+      revenue_account_updated: '"%{name}" revenue account has been updated.'
       room_type_updated: Your changes to %{roomType} were saved.
-      room_types_deleted: ! '"%{name}" room type has been deleted.'
-      sales_department_created: ! '"%{name}" sales department has been created.'
-      sales_department_deleted: ! '"%{name}" sales department has been deleted.'
-      sales_department_updated: ! '"%{name}" sales department has been updated.'
+      room_types_deleted: '"%{name}" room type has been deleted.'
+      sales_department_created: '"%{name}" sales department has been created.'
+      sales_department_deleted: '"%{name}" sales department has been deleted.'
+      sales_department_updated: '"%{name}" sales department has been updated.'
       success_created_additional_fee: Additional Fee Created!
       success_created_contact: Contact Created!
       success_created_notes: Note Created!
@@ -2862,8 +2862,8 @@ en:
       successfully_updated: Successfully updated
       successfully_updated_calendar: Successfully updated your calendar
       tax_category_created: A new tax category has been created.
-      tax_category_deleted: ! '%{category} tax category has been deleted.'
-      tax_category_updated: ! '%{category} tax category has been updated.'
+      tax_category_deleted: '%{category} tax category has been deleted.'
+      tax_category_updated: '%{category} tax category has been updated.'
     minimum_stay: Minimum stay
     modals:
       add_cancellation_policy: Add cancellation policy
@@ -3009,13 +3009,13 @@ en:
     page:
       reservations:
         reservations_count:
-          one: ! '%{count} reservation'
-          other: ! '%{count} reservations'
+          one: '%{count} reservation'
+          other: '%{count} reservations'
     pages:
       bulk_update:
         changes: Changes
         confirm_and_update: Confirm and Update
-        content_info: ! 'Apply the changes you make on one rate plan to the others.
+        content_info: 'Apply the changes you make on one rate plan to the others.
 
 
           Select "Price - net" from the left menu, write a net amount in the "Price" column and select "Apply down". All price plans will be the amount you type in.
@@ -3039,7 +3039,7 @@ en:
         coupon_add: Add Coupon
         coupon_count:
           one: 1 Coupon
-          other: ! '%{count} Coupons'
+          other: '%{count} Coupons'
         empty_states_button: Add Coupon
         empty_states_subtitle: Once you create coupon, you'll see them here.
         empty_states_title: No coupons created yet
@@ -3058,7 +3058,7 @@ en:
         extra_to_category_add: Add Extra to category
         extras_field:
           one: 1 extra
-          other: ! '%{count} extras'
+          other: '%{count} extras'
         subtitle: Increase guest satisfaction by offering services guests can purchase along with their rooms.
         subtitle_learnmore: Learn more about extras.
         title: Extras
@@ -3111,7 +3111,7 @@ en:
         title: Languages
         translate: Translate
         translate_content: Translate your content
-        translation_language_title: ! '%{language} translation'
+        translation_language_title: '%{language} translation'
       logs:
         channel_name: Channel
         initiator_sign: Source
@@ -3196,7 +3196,7 @@ en:
         verify_language: Verify your region and language settings
         visit_center: Visit Help Center
       property_amenities:
-        subtitle: ! 'Choose the amenities your rooms offer, like a jacuzzi tub or flat screen TV. '
+        subtitle: 'Choose the amenities your rooms offer, like a jacuzzi tub or flat screen TV. '
         title: Room Amenities
       property_engine:
         address_details: Address
@@ -3214,7 +3214,7 @@ en:
         guest_details_title: Guest details
         guest_info: Info about additional guests
         guest_info_in: Ask for the name and birthday of each guest included in the reservation.
-        heading_v1: ! 'Request this info:'
+        heading_v1: 'Request this info:'
         heading_v2: Terms of service
         heading_v3: ID required
         number_adult_limit: The number of adults limit per room
@@ -3295,7 +3295,7 @@ en:
         property_info_subtitle: Manage your payment methods, contact information and more.
         property_info_title: Property info
         room_amenities_button_text: Manage Room Amenities
-        room_amenities_subtitle: ! 'Choose the amenities your rooms offer, like a jacuzzi tub or flat screen TV. '
+        room_amenities_subtitle: 'Choose the amenities your rooms offer, like a jacuzzi tub or flat screen TV. '
         room_amenities_title: Room amenities
         subtitle: Manage all your property settings in one spot. Set policies, add photos, choose amenities and more.
         title: Property Settings
@@ -3439,7 +3439,7 @@ en:
         reservation_number: Reservation number
         reservations:
           one: 1 reservation
-          other: ! '%{count} reservations'
+          other: '%{count} reservations'
         reservations_empty_state: You don't have any reservations yet
         reservations_empty_state_subtitle: You can create your first reservation by clicking “New Reservation” button.
         room_calendar: Room Calendar
@@ -3448,16 +3448,16 @@ en:
         room_type_empty_state_subtitle: In order to create a reservation you need to create a room type first.
         unassigned_reservations:
           one: 1 unassigned reservation
-          other: ! '%{count} unassigned reservations'
+          other: '%{count} unassigned reservations'
       room_type_edit:
         add_new_photos: Add New Photos
         add_new_room: Add New Room
         amenities: Amenities
-        amenities_card_subtitle: ! 'Choose the amenities your rooms offer, like a jacuzzi tub or flat screen TV. '
+        amenities_card_subtitle: 'Choose the amenities your rooms offer, like a jacuzzi tub or flat screen TV. '
         amenities_card_title: Room amenities
         amenities_field:
-          one: ! '%{count} amenity'
-          other: ! '%{count} amenities'
+          one: '%{count} amenity'
+          other: '%{count} amenities'
         discard_changes: Discard Changes
         gallery: Gallery
         gallery_card_subtitle: Upload photos to showcase your room's best features.
@@ -3468,20 +3468,20 @@ en:
         navigate_modal_content: You've made some changes on this page. They won't be saved if you leave now.
         navigate_modal_title: Sure you want to leave?
         photos_field:
-          one: ! '%{count} photo'
-          other: ! '%{count} photos'
+          one: '%{count} photo'
+          other: '%{count} photos'
         rate_plans_card_title: Rate plans
         rates: Rates
         rates_field:
-          one: ! '%{count} rate'
-          other: ! '%{count} rates'
+          one: '%{count} rate'
+          other: '%{count} rates'
         room_add: Add New Room
         rooms: Rooms
         rooms_card_subtitle: Choose number of beds, room identifiers, and more
         rooms_card_title: Room details
         rooms_field:
-          one: ! '%{count} room'
-          other: ! '%{count} rooms'
+          one: '%{count} room'
+          other: '%{count} rooms'
         rooms_identifier: Rooms identifier
         save_and_cancel: Save & Continue
         subtitle: Configure your room details and highlight its best features.
@@ -3498,8 +3498,8 @@ en:
         step6_title: Upload room photos
       room_types:
         card_title:
-          one: ! '%{count} Room Type'
-          other: ! '%{count} Room Types'
+          one: '%{count} Room Type'
+          other: '%{count} Room Types'
         empty_button: Create Room Type
         empty_subtitle: Please add a room type.
         empty_subtitle_new: Highlight your room’s best features in your setup and start attracting guests.
@@ -3663,7 +3663,7 @@ en:
     price_required: Enter price
     price_settings: Price Settings
     price_tooltip: Apply your chosen rate plan, or enter a unique price.
-    price_type: ! 'Price calculated:'
+    price_type: 'Price calculated:'
     prints:
       reservation_detail:
         check_in_date: Check-in Date
@@ -3690,7 +3690,7 @@ en:
     repeat_type:
       label: Repeat type
       placeholder: 
-    required_field: ! '%{field} is required'
+    required_field: '%{field} is required'
     reservation_id: Reservation ID
     reservation_number: Reservation number
     reservation_source: Reservation source
@@ -3792,8 +3792,8 @@ en:
       label: Tags
       placeholder: Choose tags
       required: Please select tags from list
-    tax_by_period: ! 'Tax by time period:'
-    tax_by_unit: ! 'Tax by unit:'
+    tax_by_period: 'Tax by time period:'
+    tax_by_unit: 'Tax by unit:'
     tax_category_name: Tax category name
     tax_id:
       label: Tax ID
@@ -3811,7 +3811,7 @@ en:
     tooltips:
       auto_confirm: Manually confirm your reservations, or have each confirmed automatically.
       base_price: This is your room's default price. If your room rates are unable to load, guests will see this price on sales channels. We recommend entering a value as high as your most expensive rate.
-      bulk_update_cta: ! 'Restrict guests from arriving on specific dates. Useful during holidays to lighten the property staff’s workload. '
+      bulk_update_cta: 'Restrict guests from arriving on specific dates. Useful during holidays to lighten the property staff’s workload. '
       bulk_update_ctd: Restrict guests from departing on specific dates. Useful during holidays to lighten the property staff’s workload.
       bulk_update_minimum_stay: Encourage longer stays by setting a minimum stay length. Especially useful around holidays.
       bulk_update_stop_sell: Stop the sale of rate plans for certain date ranges. Useful during low seasons.
@@ -3832,14 +3832,14 @@ en:
       inventory_calendar_no_data: There is no data for this date.
       inventory_calendar_no_reservation:
         one: 1 room is available.
-        other: ! '%{remainingAvailability} rooms are available.'
+        other: '%{remainingAvailability} rooms are available.'
       inventory_calendar_overbooked: This room is overbooked.
       inventory_calendar_remaining_availability:
         one: 1 is still available.
-        other: ! '{remainingAvailability} are still available.'
+        other: '{remainingAvailability} are still available.'
       inventory_calendar_reserved:
         one: 1 out of %{totalAvailability} room is reserved.
-        other: ! '%{reservation} out of %{totalAvailability} rooms are reserved.'
+        other: '%{reservation} out of %{totalAvailability} rooms are reserved.'
       market_countries: Choose the countries included in this market.
       market_currency: Choose in which currency you will sell to this market.
       market_rate_plans: Choose the rate plans you will offer to this market.
@@ -3860,7 +3860,7 @@ en:
       room_type_new_display_name: This name appears in search results when guests search for available rooms.
       room_type_new_number_of_rooms: Choose how many of this room type your property has.
       room_type_new_revenue_account: This helps you store different types of sales transactions (e.g., accommodation, extras, beverage) within different accounts.
-      room_type_new_room_type: ! 'The kind of room you choose can affect its features. For example, choosing “dormitory” lets multiple guests reserve the same room. '
+      room_type_new_room_type: 'The kind of room you choose can affect its features. For example, choosing “dormitory” lets multiple guests reserve the same room. '
       room_type_new_total_capacity: The total number of adults and children that can stay in this type of room.
       room_types_main_rate_delete: Main Rates cannot be deleted
       sales_department: Assign the extra to the relevant sales department.
