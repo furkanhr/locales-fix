@@ -1,14 +1,25 @@
+import * as fs from "node:fs";
 import * as path from "node:path";
 
-import { createPathMapOf, readYamlFile } from "src/utils";
+import { createPathMapOf, readYamlFile } from "../utils";
 
-export function extractPathsFromYamlFile() {
-  //   const prodYmlFilename = "prod.en.yml";
-  const prodYmlFilename = "example.yml";
+// const prodYmlFilename = "prod.en.yml";
+const prodYmlFilename = "example.yml";
 
-  const prodYml = readYamlFile(
-    path.resolve(__dirname, "src", "yaml-files", prodYmlFilename)
-  );
+const pathname = path.resolve(
+  process.cwd(),
+  "src",
+  "yaml-files",
+  prodYmlFilename
+);
 
-  createPathMapOf(prodYml);
-}
+const prodYml = readYamlFile(pathname);
+
+const pathMap = createPathMapOf(prodYml);
+
+const asString = JSON.stringify(pathMap);
+
+fs.writeFileSync(
+  path.resolve(process.cwd(), "src", "shell", "prod.path-map.json"),
+  asString
+);
