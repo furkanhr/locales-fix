@@ -9,6 +9,7 @@
     "sort": "node dist/scripts/sort.js",
     "extract:keys": "node dist/scripts/extractTopLevelKeys.js",
     "extract:paths": "node dist/scripts/extractPathsFromProd.js",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
