@@ -5,7 +5,7 @@ import yaml, { DumpOptions } from "js-yaml";
 import { Dictionary } from "../../src/types/Dictionary";
 
 export function writeYamlFile(
-  target: string,
+  filename: string,
   data: Dictionary,
   options?: DumpOptions
 ) {
@@ -15,5 +15,8 @@ export function writeYamlFile(
     ...options,
   });
 
-  fs.writeFileSync(path.resolve(__dirname, "yaml-files", target), ymlOutput);
+  fs.writeFileSync(
+    path.resolve(process.cwd(), "src", "yaml-files", filename),
+    ymlOutput
+  );
 }
