@@ -1259,6 +1259,9 @@ en:
         reservation_details: Reservation Details
         reservation_details_subtitle: Find and update your guest’s reservation info in one spot.
         reservation_type: Reservation Type
+        reservations_count:
+          one: '%{count} reservation'
+          other: '%{count} reservations'
         room_number: Room Number
         room_successfully_unassigned: Room has been successfully unassigned!
         show_cc: Show Credit Cart
@@ -1571,11 +1574,6 @@ en:
         add_new_note: Add new note
         add_reservation: Add Reservation
         add_room_type: Add Room Type
-    page:
-      reservations:
-        reservations_count:
-          one: '%{count} reservation'
-          other: '%{count} reservations'
     table:
       markets:
         market_name: Market name
