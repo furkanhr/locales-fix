@@ -2,24 +2,17 @@ import * as fs from "node:fs";
 import * as path from "node:path";
 import yaml from "js-yaml";
 
-const prodLocalesFilename = "prod.en.yml";
-const fixedLocalesFilename = "en.yml";
+function sortYamlFile(filename) {
+  const file = fs.readFileSync(path.resolve(filename));
+  const data = yaml.load(file, { json: true });
+  const sortedData = yaml.dump(data, { sortKeys: true, lineWidth: -1 });
+  fs.writeFileSync(path.resolve(filename), sortedData);
+}
 
-const prodLocalesFile = fs.readFileSync(path.resolve(prodLocalesFilename));
-const fixedLocalesFile = fs.readFileSync(path.resolve(fixedLocalesFilename));
+const files = {
+  prodLocalesFilename: "prod.en.yml",
+  fixedLocalesFilename: "en.yml",
+  stagingLocalesFilename: "staging.en.yml",
+};
 
-const prodLocales = yaml.load(prodLocalesFile, { json: true });
-const fixedLocales = yaml.load(fixedLocalesFile, { json: true });
-
-const prodLocalesSorted = yaml.dump(prodLocales, {
-  sortKeys: true,
-  lineWidth: -1,
-});
-
-const fixedLocalesSorted = yaml.dump(fixedLocales, {
-  sortKeys: true,
-  lineWidth: -1,
-});
-
-fs.writeFileSync(path.resolve(prodLocalesFilename), prodLocalesSorted);
-fs.writeFileSync(path.resolve(fixedLocalesFilename), fixedLocalesSorted);
+Object.values(files).forEach(sortYamlFile);
