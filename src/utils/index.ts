@@ -4,3 +4,4 @@ export * from "./sortYamlFile";
 export * from "./createPathMapOf";
 export * from "./logger";
 export * from "./writeYamlFile";
+export * from "./readKeys";

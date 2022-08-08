@@ -1,7 +1,7 @@
-import { Dictionary } from "src/types/Dictionary";
-import { readFormKeys } from "./scripts";
-import { logger, readYamlFile, writeYamlFile } from "./utils";
-import { EnYml } from "./types";
+import * as path from "node:path";
+
+import { logger, readKeys, readYamlFile, writeYamlFile } from "./utils";
+import { EnYml, Dictionary } from "./types";
 
 logger.cleanup();
 
@@ -23,12 +23,12 @@ enYml.en.lydia = enYml.en.form || {};
 delete enYml.en.form;
 
 // * Part 1: Assemble the `form` directory
-const formKeys = readFormKeys();
+const formKeysPath = path.resolve(process.cwd(), "form-keys.txt");
+const formKeys = readKeys(formKeysPath);
 
 const form: Dictionary = {};
 
 for (const key of formKeys) {
-  // enYml.en.lydia.form[key] = enYml.en.lydia[key];
   form[key] = enYml.en.lydia[key];
 
   delete enYml.en.lydia[key];
@@ -41,16 +41,17 @@ for (const key of formKeys) {
 fixedEnYml.en.form = form;
 
 // * Part 2: Assemble the `lydia` directory
-// const lydiaKeys = readLydiaKeys();
+const lydiaKeysPath = path.resolve(process.cwd(), "lydia-keys.txt");
+const lydiaKeys = readKeys(lydiaKeysPath);
 
-// for (const key of lydiaKeys) {
-//   fixedEnYml.en.lydia[key] = enYml.en.lydia[key]
+for (const key of lydiaKeys) {
+  fixedEnYml.en.lydia[key] = enYml.en.lydia[key];
 
-//   delete enYml.en.lydia[key];
+  delete enYml.en.lydia[key];
 
-//   const logMessage = `\nI've found "${key}" under "lydia"`;
+  const logMessage = `\nI've found "${key}" under "lydia"`;
 
-//   logger.log(logMessage);
-// }
+  logger.log(logMessage);
+}
 
-writeYamlFile(enYml, fixedEnYml);
+writeYamlFile(enYmlFilename, fixedEnYml);

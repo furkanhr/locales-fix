@@ -1,12 +1,12 @@
 # Demo target
-# "$(pwd)/src/shell/example-target"
+# "$(pwd)/example-target"
 
 grep \
 -Erho \
-"t[(][\'\"]form[.]([[:alpha:]_]+)" \
+"t[(][\'\"]form[.][[:alpha:]_]+" \
 ~/Workspace/lydia/src \
-| sed "s/.*form[.]\(.*\).*/\1/g" \
-> "$(pwd)/src/shell/keysUnderForm.txt"
+| sed "s/.*form[.]\(.*\)/\1/g" \
+> "$(pwd)/form-keys.txt"
 
 # Flags
 # -E	Extended expression (\escape meta-characters to use as literals)
