@@ -4,6 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
+    "clear:result": "rm ./logs.txt ./src/yaml-files/en.fixed.yml",
     "start": "node dist/index.js",
     "find-keys:form": "./src/shell/find-form-keys.sh",
     "find-keys:lydia": "./src/shell/find-lydia-keys.sh",
