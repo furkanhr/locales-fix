@@ -1,10 +1,10 @@
 import { Dictionary } from "src/types";
 
 export function createPathMapOf(dict: Dictionary) {
-  const pathMap = [];
+  const pathMap: string[][] = [];
+  const path: string[] = [];
 
-  function discover(record: Dictionary) {
-    const path = [];
+  function stepIn(record: Dictionary) {
 
     for (const key in record) {
       if (!record.hasOwnProperty(key)) continue;
@@ -15,14 +15,16 @@ export function createPathMapOf(dict: Dictionary) {
 
       if (isOver) {
         pathMap.push(path);
-        path.length = 0; // ? Is this necessary?
+        path.length = 0;
 
         continue;
       }
 
-      discover(record[key]);
+      stepIn(record[key]);
     }
   }
 
-  discover(dict);
+  stepIn(dict);
+
+  return pathMap;
 }
