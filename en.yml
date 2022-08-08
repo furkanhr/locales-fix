@@ -495,6 +495,358 @@ en:
       wont_be_saved: Your changes won't be saved if you leave now.
     discount_rate: Discount Rate
     display_name_required: Enter a display name
+    form:
+      account: Account
+      add_new_channel: Add New Channel
+      add_new_contact: Add New Contact
+      add_penalty_condition: Add penalty condition
+      adjust_price_based_on: Adjust price based on guests in the room
+      adjustment_amount: Adjustment amount
+      adult_capacity: Adult capacity
+      adult_capacity_required: Please enter adult capacity
+      age_range_from_greater_than_to_required: Child age range From cannot be greater than To
+      age_range_valid_required: There is a conflict for child age ranges. Please be sure to set correct age ranges for all your child settings.
+      all_year_around: All year around
+      all_year_round: All year round
+      apply_rate_plan: Apply rate plan
+      auto_confirm: Auto-confirm reservations
+      availability: Availability
+      base_price: Base Price (per night)
+      base_price_different_occupancy: Set pricing for different occupancy
+      base_price_guest_type: Set base price for what occupancy?
+      base_price_required: Enter a base price
+      base_price_tooltip: Base price/per night
+      bed_types: Bed types
+      birthdate:
+        label: Birthdate
+        placeholder: Enter birthdate
+      by_rounding_down: By rounding down
+      by_rounding_up: By rounding up
+      calculate_prices: Calculate prices
+      cancellation_policy: Cancellation policy
+      card_number:
+        label: Card number
+      category_description: Category description (optional)
+      category_image: Category image
+      category_name: Category name
+      ccv: CCV
+      channel:
+        heading: Channel
+        label: Add your channel
+      channels: Channels
+      checkin: Check-in
+      checkin_time: Check-in time
+      checkout: Check-out
+      checkout_time: Check-out time
+      child_adjustment_amount: Child adjustment amount
+      child_pricing: Child pricing
+      children_ages:
+        label: 'Children ages:'
+      city:
+        label: City
+        placeholder: Choose city
+      closing_date: Closing date
+      code: Code
+      code_required: Enter code
+      company:
+        label: Company
+        placeholder: Enter company
+      confirmation_number: Confirmation number
+      connect_extra_to_room_type: Connect the extra to room types
+      connect_extra_to_room_type_required: Connect the extra to a room
+      contact_details: Contact details
+      contact_preference:
+        label: How does the guest want you to contact them?
+      copy_of_field: Copy of %{name}
+      countries: Countries
+      countries_required: Choose countries
+      country:
+        label: Country
+        placeholder: Choose country
+      country_code:
+        placeholder: Country code
+      coupon_code: Coupon code
+      credit_card:
+        label: Cardholder’s full name
+      cta: Closed to arrival (CTA)
+      ctd: Closed to departure (CTD)
+      currency: Currency
+      currency_required: Choose currency
+      date_settings: Date Settings
+      days: Days
+      days_before_check_in: Days before check-in
+      days_left: Days Left
+      department: Department
+      description: Description
+      description_required: Please enter a description
+      discount_amount: Discount amount
+      discount_type: Discount type
+      email:
+        label: Email
+        placeholder: Enter email
+        required: Please enter an email
+      end_date_required: Choose end date
+      enter_channel_name: Enter channel name, e.g. Booking.com
+      enter_contact_name: Enter full name, e.g. John Smith
+      entire_stay: Entire stay
+      entry_id:
+        label: Entry ID
+        placeholder: Enter entry ID
+      exp_date:
+        label: Expiration date
+      extra: Extra
+      extra_category: Extra category
+      extra_name: Extra name
+      extra_name_required: Enter extra name
+      extra_unit: Unit
+      extras: Extras
+      fax_number:
+        label: Fax number
+        placeholder: Enter fax number
+      fee: Fee
+      fee_amount: Fee amount
+      fee_label: Fee Label
+      fee_type: Fee Type
+      first_name:
+        label: First name
+        placeholder: Enter first name
+        required: First name is required
+      gender:
+        label: Gender
+        placeholder: Choose gender
+      given_room_type_sold: Sold
+      guests_can_add_extra: The guests can add the extra
+      hes_code:
+        label: HES code
+        placeholder: Enter an HES code
+        tooltip: HES code is only valid in Turkey and is needed to access things like  transportation, airports and hotels.
+      hotel_id: Hotel ID
+      id_number:
+        label: ID number
+        placeholder: Enter ID number
+      id_type:
+        label: ID type
+        placeholder: Choose ID type
+      include_tax: Include tax
+      included_price: Included in price
+      kind_id_required: null
+      kind_of_room_required: Please choose a kind of room
+      labels:
+        adults: Adults
+        children: Children
+      language_required: Please choose language
+      last_name:
+        label: Last name
+        placeholder: Enter last name
+        required: Last name is required
+      lastname_required: Last name is required!
+      link_to_rate_plan: Link to a rate plan
+      location_description: Location description
+      main_contact:
+        heading: Main Contact
+        label: Add your main contact
+      market_name: Market name
+      market_name_required: Enter market name
+      meal_plan:
+        label: Meal plan
+        placeholder: Choose a meal plan
+      meal_plan_required: Please select a meal plan
+      measurement_unit: Measurement unit
+      minimum_stay: Minimum stay
+      name: Name
+      name_required: Enter name
+      nationality:
+        label: Nationality
+        placeholder: Choose nationality
+      note: Note
+      number_of_bedrooms: Number of bedrooms
+      number_of_rooms: Number of Rooms
+      number_of_rooms_required: Please enter number of rooms
+      only_in_a_specific_season: Only in a specific season
+      opening_date: Opening date
+      parent_extra_section_description: This category consists of the extras that do not have a specific category, thus it is not fully editable. You may only change the image.
+      parent_rate_plan: Parent rate plan
+      parent_rate_plan_description: You can adjust daily prices of the master rate by using the two calculators below.
+      per_adult: Per adult
+      per_child: Per child
+      per_night: Per night
+      per_person: Per person
+      per_room: Per room
+      per_stay: Per stay
+      phone: Phone
+      phone_number:
+        label: Phone number
+        placeholder: Enter phone number
+      placeholder:
+        book_date_expires_at: Book date expires at
+        book_date_starts_at: Book date starts at
+        cancellation_policy_description: e.g., You can cancel up to 2 days before your arrival date for a full refund. If canceled or modified after that period, or in the case of a no-show, you'll be charged for your first night.
+        category_description: e.g., This category consists of all transportation related extras. You can create and edit extras such as airport transfer and car rental in this category.
+        category_name: e.g., Transportation
+        choose: Please Choose
+        choose_date: Choose date
+        choose_revenue_account: Choose sales department
+        choose_sales_department: Choose sales department
+        choose_type: Choose type
+        connect_extra_to_room_type: Choose room type
+        coupon_code: Enter coupon code
+        coupon_code_required: Enter code
+        discount_amount: Enter amount
+        enter_a_code: Enter a code
+        enter_code: Enter code
+        extra_category: Choose extra category
+        extra_description_add: e.g., With our brand new vehicles and professional drivers, rest assured that you'll get to and from the airport on time. (Each airport transfer order is good for one direction. If you need to get to and from the airport, order 2 transfers.)
+        extra_name: e.g., Airport transfer
+        extra_unit: e.g., Per direction
+        kind_of_room: Choose a kind of room
+        language: Please choose language
+        location_description: Help guests find you by detailing the route to your property. e.g., Drive to the end of Main street and turn right onto an unpaved road. Continue for about a minute until you see our property on the left.
+        market_countries: Choose countries
+        market_currency: Choose currency
+        market_name: Enter market name
+        market_rate_plans: Choose rate plans
+        name: Enter name
+        please_choose: Please choose
+        please_select: Please select
+        rate_code: Enter code
+        rate_name_placeholder: e.g. Standard Rate
+        rate_plan_choose: Choose rate plan
+        rateplan_base_price_adult_count: Choose number of adults
+        rateplan_baseprice: Enter base price
+        rateplan_roomtype: Choose room type
+        revenue_account: Choose revenue account
+        revenue_account_code: e.g., ACMD
+        revenue_account_extras: Choose extras
+        revenue_account_name: e.g.,Accommodation
+        revenue_account_promotions: Choose promotion
+        revenue_account_room_types: Choose room type
+        revenue_account_tax_rates: Choose tax rate
+        revenue_account_type: Choose type
+        revenue_accounts: Select revenue account
+        room_display_name: e.g., Double room with sea view
+        room_type_edit_general_info: e.g., Enjoy a stunning sea view from your private sunlit balcony, where…
+        sales_department_code: e.g., ACMD
+        sales_department_name: e.g.,Accommodation
+        select_month: Select Month
+        select_time: Select Time
+        select_to_filter: Select to filter
+        setup_flow_property: Please select property type
+        stay_date_ends_at: Stay date ends at
+        stay_date_starts_at: Stay date starts at
+        tax_category_name: e.g. VAT
+        usage_limit: Enter usage limit
+        usage_limit_required: Enter usage limit
+      placeholder_select: Please Select
+      please_enter_price: Please enter price
+      price: Price
+      price_required: Enter price
+      price_settings: Price Settings
+      price_tooltip: Apply your chosen rate plan, or enter a unique price.
+      price_type: 'Price calculated:'
+      promotions: Promotions
+      property_offers_child_pricing: The property offers child pricing
+      property_operates: The property operates
+      rate_plan:
+        label: Rate plan
+        placeholder: Choose rate plan
+      rate_plans: Rate plans
+      rate_required: Choose rate plans
+      rateplan_name_tooltip: This name is displayed with the room type. e.g., Standard room - Room only
+      receipt_email:
+        label: Receipt email
+        placeholder: Enter receipt email
+      repeat_count: Repeat Count
+      repeat_type:
+        label: Repeat type
+        placeholder: null
+      reservation_id: Reservation ID
+      reservation_source: Reservation source
+      reservation_start_end_dates: Reservation start/end dates
+      revenue_account: Revenue account
+      revenue_account_required: Choose a revenue account
+      revenue_accounts: Revenue accounts
+      room_capacity: Room capacity
+      room_capacity_required: Please enter room capacity
+      room_description_info: Describe your room and highlight its best features. If no content is written, room amenities are automatically displayed.
+      room_details: Room Details
+      room_display_name: Display name
+      room_display_name_info: This name appears in search results when guests search for available rooms.
+      room_identifier:
+        label: Room identifier
+        placeholder: Choose a room identifier
+      room_kind: Kind of room
+      room_number:
+        label: Room number
+        placeholder: Choose a room
+      room_rate: Room rate
+      room_revenue_account_info: This code is used to integrate your room’s information with the property management system. Choose a unique code for each room type.
+      room_selling_period_info: Choose if the room can be reserved on a daily, weekly or monthly basis. For example, a villa can only be reserved for a full week.
+      room_type:
+        label: Room type
+        placeholder: Choose room type
+      room_type_required: Choose a kind of room
+      room_types: Room types
+      rounding_rule: Rounding rule
+      rule_day_required: Value must be greater than or equal to 1.
+      sales_department: Sales department
+      sales_department_required: Choose sales department
+      select_an_extra: Select an Extra
+      select_date_range: Select date range
+      select_option: Select at least 1 option
+      select_revenue_account_placeholder: e.g. Accomodation
+      sellable_markets: Sellable markets
+      selling_period: Selling period
+      send_an_email_to_guest: Send an email to guest
+      show_extra_on_your_site: Show the extra on your site
+      show_on_site: Show the rate plan on your site
+      sold_rate_type: Sold rate type
+      sold_rooms_rate_name_in_channel: Sold room’s rate name in channel
+      square_feet: Square feet (ft)
+      square_meter: Square meter (m²)
+      start_and_end_dates: Start and End dates
+      start_date_required: Choose start date
+      state:
+        label: State
+        placeholder: Choose state
+      stay_start_end_dates: Stay start/end dates
+      stay_starts_ends_at: Stay starts - ends at
+      stop_sell: Stop Sell
+      street_address:
+        label: Street address
+        placeholder: Enter the guest’s street address.
+      tags:
+        label: Tags
+        placeholder: Choose tags
+        required: Please select tags from list
+      tax_by_period: 'Tax by time period:'
+      tax_by_unit: 'Tax by unit:'
+      tax_category_name: Tax category name
+      tax_id:
+        label: Tax ID
+        placeholder: Enter tax ID
+      tax_office:
+        label: Tax office
+        placeholder: Enter tax office
+      tax_rates: Tax rates
+      tax_total: Tax total
+      title:
+        label: Title
+        placeholder: Choose a title
+      total_capacity: Total Capacity
+      type: Type
+      type_required: Choose type
+      unassign_room: Unassign Room
+      update_reservation: Update Reservation
+      usage_limit: Usage limit
+      values:
+        adult: adult
+        child: Child
+        company: Company
+        individual: null
+      without_any_change: Without any change
+      zip_code:
+        label: ZIP code
+        placeholder: Enter ZIP code
     home: Home
     increase_new: Increase base price
     kind_of_room: Kind of room
@@ -1388,355 +1740,3 @@ en:
     unit: Unit
     variant_required: Variant id is required
     variants: Variants
-    form:
-      add_new_contact: Add New Contact
-      enter_contact_name: Enter full name, e.g. John Smith
-      lastname_required: Last name is required!
-      country_code:
-        placeholder: Country code
-      phone_number:
-        label: Phone number
-        placeholder: Enter phone number
-      placeholder:
-        book_date_expires_at: Book date expires at
-        book_date_starts_at: Book date starts at
-        cancellation_policy_description: e.g., You can cancel up to 2 days before your arrival date for a full refund. If canceled or modified after that period, or in the case of a no-show, you'll be charged for your first night.
-        category_description: e.g., This category consists of all transportation related extras. You can create and edit extras such as airport transfer and car rental in this category.
-        category_name: e.g., Transportation
-        choose: Please Choose
-        choose_date: Choose date
-        choose_revenue_account: Choose sales department
-        choose_sales_department: Choose sales department
-        choose_type: Choose type
-        connect_extra_to_room_type: Choose room type
-        coupon_code: Enter coupon code
-        coupon_code_required: Enter code
-        discount_amount: Enter amount
-        enter_a_code: Enter a code
-        enter_code: Enter code
-        extra_category: Choose extra category
-        extra_description_add: e.g., With our brand new vehicles and professional drivers, rest assured that you'll get to and from the airport on time. (Each airport transfer order is good for one direction. If you need to get to and from the airport, order 2 transfers.)
-        extra_name: e.g., Airport transfer
-        extra_unit: e.g., Per direction
-        kind_of_room: Choose a kind of room
-        language: Please choose language
-        location_description: Help guests find you by detailing the route to your property. e.g., Drive to the end of Main street and turn right onto an unpaved road. Continue for about a minute until you see our property on the left.
-        market_countries: Choose countries
-        market_currency: Choose currency
-        market_name: Enter market name
-        market_rate_plans: Choose rate plans
-        name: Enter name
-        please_choose: Please choose
-        please_select: Please select
-        rate_code: Enter code
-        rate_name_placeholder: e.g. Standard Rate
-        rate_plan_choose: Choose rate plan
-        rateplan_base_price_adult_count: Choose number of adults
-        rateplan_baseprice: Enter base price
-        rateplan_roomtype: Choose room type
-        revenue_account: Choose revenue account
-        revenue_account_code: e.g., ACMD
-        revenue_account_extras: Choose extras
-        revenue_account_name: e.g.,Accommodation
-        revenue_account_promotions: Choose promotion
-        revenue_account_room_types: Choose room type
-        revenue_account_tax_rates: Choose tax rate
-        revenue_account_type: Choose type
-        revenue_accounts: Select revenue account
-        room_display_name: e.g., Double room with sea view
-        room_type_edit_general_info: e.g., Enjoy a stunning sea view from your private sunlit balcony, where…
-        sales_department_code: e.g., ACMD
-        sales_department_name: e.g.,Accommodation
-        select_month: Select Month
-        select_time: Select Time
-        select_to_filter: Select to filter
-        setup_flow_property: Please select property type
-        stay_date_ends_at: Stay date ends at
-        stay_date_starts_at: Stay date starts at
-        tax_category_name: e.g. VAT
-        usage_limit: Enter usage limit
-        usage_limit_required: Enter usage limit
-      name_required: Enter name
-      tax_category_name: Tax category name
-      discount_type: Discount type
-      revenue_account: Revenue account
-      tax_by_period: 'Tax by time period:'
-      per_stay: Per stay
-      per_night: Per night
-      tax_by_unit: 'Tax by unit:'
-      per_room: Per room
-      per_person: Per person
-      included_price: Included in price
-      auto_confirm: Auto-confirm reservations
-      age_range_from_greater_than_to_required: Child age range From cannot be greater than To
-      age_range_valid_required: There is a conflict for child age ranges. Please be sure to set correct age ranges for all your child settings.
-      number_of_rooms: Number of Rooms
-      measurement_unit: Measurement unit
-      square_meter: Square meter (m²)
-      square_feet: Square feet (ft)
-      location_description: Location description
-      property_operates: The property operates
-      all_year_round: All year round
-      only_in_a_specific_season: Only in a specific season
-      opening_date: Opening date
-      closing_date: Closing date
-      checkin_time: Check-in time
-      checkout_time: Check-out time
-      calculate_prices: Calculate prices
-      without_any_change: Without any change
-      rounding_rule: Rounding rule
-      by_rounding_up: By rounding up
-      by_rounding_down: By rounding down
-      property_offers_child_pricing: The property offers child pricing
-      name: Name
-      kind_id_required: null
-      room_display_name: Display name
-      adult_capacity: Adult capacity
-      total_capacity: Total Capacity
-      select_revenue_account_placeholder: e.g. Accomodation
-      room_type:
-        label: Room type
-        placeholder: Choose room type
-      room_type_required: Choose a kind of room
-      number_of_rooms_required: Please enter number of rooms
-      adult_capacity_required: Please enter adult capacity
-      room_capacity_required: Please enter room capacity
-      base_price_required: Enter a base price
-      revenue_account_required: Choose a revenue account
-      kind_of_room_required: Please choose a kind of room
-      room_kind: Kind of room
-      room_display_name_info: This name appears in search results when guests search for available rooms.
-      selling_period: Selling period
-      room_selling_period_info: Choose if the room can be reserved on a daily, weekly or monthly basis. For example, a villa can only be reserved for a full week.
-      room_revenue_account_info: This code is used to integrate your room’s information with the property management system. Choose a unique code for each room type.
-      room_capacity: Room capacity
-      code: Code
-      description: Description
-      room_description_info: Describe your room and highlight its best features. If no content is written, room amenities are automatically displayed.
-      base_price: Base Price (per night)
-      base_price_tooltip: Base price/per night
-      base_price_guest_type: Set base price for what occupancy?
-      base_price_different_occupancy: Set pricing for different occupancy
-      number_of_bedrooms: Number of bedrooms
-      bed_types: Bed types
-      tags:
-        label: Tags
-        placeholder: Choose tags
-        required: Please select tags from list
-      child_pricing: Child pricing
-      type_required: Choose type
-      code_required: Enter code
-      type: Type
-      tax_rates: Tax rates
-      room_types: Room types
-      extras: Extras
-      promotions: Promotions
-      unassign_room: Unassign Room
-      checkin: Check-in
-      checkout: Check-out
-      labels:
-        adults: Adults
-        children: Children
-      children_ages:
-        label: 'Children ages:'
-      values:
-        adult: adult
-        child: Child
-        company: Company
-        individual: null
-      room_details: Room Details
-      sold_rooms_rate_name_in_channel: Sold room’s rate name in channel
-      given_room_type_sold: Sold
-      rate_plan:
-        label: Rate plan
-        placeholder: Choose rate plan
-      sold_rate_type: Sold rate type
-      meal_plan:
-        label: Meal plan
-        placeholder: Choose a meal plan
-      room_number:
-        label: Room number
-        placeholder: Choose a room
-      reservation_id: Reservation ID
-      update_reservation: Update Reservation
-      tax_total: Tax total
-      room_rate: Room rate
-      main_contact:
-        heading: Main Contact
-        label: Add your main contact
-      enter_channel_name: Enter channel name, e.g. Booking.com
-      add_new_channel: Add New Channel
-      fee_type: Fee Type
-      extra: Extra
-      fee: Fee
-      select_an_extra: Select an Extra
-      placeholder_select: Please Select
-      fee_label: Fee Label
-      department: Department
-      account: Account
-      repeat_type:
-        label: Repeat type
-        placeholder: null
-      repeat_count: Repeat Count
-      per_adult: Per adult
-      per_child: Per child
-      first_name:
-        label: First name
-        placeholder: Enter first name
-        required: First name is required
-      last_name:
-        label: Last name
-        placeholder: Enter last name
-        required: Last name is required
-      title:
-        label: Title
-        placeholder: Choose a title
-      email:
-        label: Email
-        placeholder: Enter email
-        required: Please enter an email
-      contact_preference:
-        label: How does the guest want you to contact them?
-      phone: Phone
-      id_type:
-        label: ID type
-        placeholder: Choose ID type
-      id_number:
-        label: ID number
-        placeholder: Enter ID number
-      country:
-        label: Country
-        placeholder: Choose country
-      nationality:
-        label: Nationality
-        placeholder: Choose nationality
-      birthdate:
-        label: Birthdate
-        placeholder: Enter birthdate
-      gender:
-        label: Gender
-        placeholder: Choose gender
-      entry_id:
-        label: Entry ID
-        placeholder: Enter entry ID
-      hes_code:
-        label: HES code
-        placeholder: Enter an HES code
-        tooltip: HES code is only valid in Turkey and is needed to access things like  transportation, airports and hotels.
-      state:
-        label: State
-        placeholder: Choose state
-      city:
-        label: City
-        placeholder: Choose city
-      zip_code:
-        label: ZIP code
-        placeholder: Enter ZIP code
-      street_address:
-        label: Street address
-        placeholder: Enter the guest’s street address.
-      company:
-        label: Company
-        placeholder: Enter company
-      tax_office:
-        label: Tax office
-        placeholder: Enter tax office
-      tax_id:
-        label: Tax ID
-        placeholder: Enter tax ID
-      fax_number:
-        label: Fax number
-        placeholder: Enter fax number
-      receipt_email:
-        label: Receipt email
-        placeholder: Enter receipt email
-      credit_card:
-        label: Cardholder’s full name
-      card_number:
-        label: Card number
-      exp_date:
-        label: Expiration date
-      ccv: CCV
-      room_identifier:
-        label: Room identifier
-        placeholder: Choose a room identifier
-      price_type: 'Price calculated:'
-      entire_stay: Entire stay
-      price: Price
-      price_tooltip: Apply your chosen rate plan, or enter a unique price.
-      apply_rate_plan: Apply rate plan
-      reservation_source: Reservation source
-      confirmation_number: Confirmation number
-      note: Note
-      contact_details: Contact details
-      send_an_email_to_guest: Send an email to guest
-      channel:
-        heading: Channel
-        label: Add your channel
-      copy_of_field: Copy of %{name}
-      coupon_code: Coupon code
-      discount_amount: Discount amount
-      usage_limit: Usage limit
-      revenue_accounts: Revenue accounts
-      reservation_start_end_dates: Reservation start/end dates
-      stay_start_end_dates: Stay start/end dates
-      fee_amount: Fee amount
-      include_tax: Include tax
-      description_required: Please enter a description
-      rule_day_required: Value must be greater than or equal to 1.
-      add_penalty_condition: Add penalty condition
-      days_before_check_in: Days before check-in
-      days_left: Days Left
-      language_required: Please choose language
-      select_option: Select at least 1 option
-      countries_required: Choose countries
-      rate_plans: Rate plans
-      channels: Channels
-      please_enter_price: Please enter price
-      rateplan_name_tooltip: This name is displayed with the room type. e.g., Standard room - Room only
-      price_settings: Price Settings
-      adjust_price_based_on: Adjust price based on guests in the room
-      adjustment_amount: Adjustment amount
-      child_adjustment_amount: Child adjustment amount
-      meal_plan_required: Please select a meal plan
-      start_date_required: Choose start date
-      end_date_required: Choose end date
-      cancellation_policy: Cancellation policy
-      sellable_markets: Sellable markets
-      date_settings: Date Settings
-      all_year_around: All year around
-      select_date_range: Select date range
-      stay_starts_ends_at: Stay starts - ends at
-      link_to_rate_plan: Link to a rate plan
-      parent_rate_plan: Parent rate plan
-      parent_rate_plan_description: You can adjust daily prices of the master rate by using the two calculators below.
-      show_on_site: Show the rate plan on your site
-      currency: Currency
-      market_name_required: Enter market name
-      currency_required: Choose currency
-      rate_required: Choose rate plans
-      market_name: Market name
-      countries: Countries
-      hotel_id: Hotel ID
-      parent_extra_section_description: This category consists of the extras that do not have a specific category, thus it is not fully editable. You may only change the image.
-      category_image: Category image
-      category_name: Category name
-      category_description: Category description (optional)
-      start_and_end_dates: Start and End dates
-      availability: Availability
-      minimum_stay: Minimum stay
-      stop_sell: Stop Sell
-      cta: Closed to arrival (CTA)
-      ctd: Closed to departure (CTD)
-      days: Days
-      show_extra_on_your_site: Show the extra on your site
-      extra_name_required: Enter extra name
-      price_required: Enter price
-      sales_department_required: Choose sales department
-      connect_extra_to_room_type_required: Connect the extra to a room
-      extra_name: Extra name
-      extra_category: Extra category
-      connect_extra_to_room_type: Connect the extra to room types
-      extra_unit: Unit
-      guests_can_add_extra: The guests can add the extra
-      sales_department: Sales department

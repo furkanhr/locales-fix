@@ -211,7 +211,7 @@ en:
       discard: Discard
       discard_changes: Discard Changes
       discount: Discount
-      dismiss: 
+      dismiss: null
       dont_send: Don't send
       duplicate: Duplicate
       edit: Edit
@@ -272,7 +272,7 @@ en:
       join: Join
       label: Label
       last_transaction_status: Last transactions status
-      learn_more: 
+      learn_more: null
       learn_more_about_revenue_accounts: Learn more about revenue accounts.
       leave: Leave
       lets_go: Let's Go
@@ -310,7 +310,7 @@ en:
       never: Never
       new_reservations: New Reservations
       new_room_type: New Room Type
-      new_version_available: 
+      new_version_available: null
       next: Next
       next_room_type: Next Room Type
       'no': 'No'
@@ -405,7 +405,7 @@ en:
       skip_now: Skip for now
       smart_actions: Smart Actions
       some_rooms: Some rooms
-      start: 
+      start: null
       status: Status
       status_advertise: Advertised
       status_expired: Expired
@@ -492,7 +492,7 @@ en:
       all_year_around: All year around
       all_year_around_description: There is no date restriction for this rate plan
       all_year_round: All year round
-      amount: 
+      amount: null
       apply_default_rate: Apply default rate
       area: Area
       area_field: Area %{unit}
@@ -604,7 +604,7 @@ en:
       include_tax: Include tax
       included_price: Included in price
       increase_new: Increase base price
-      kind_id_required: 
+      kind_id_required: null
       kind_of_room: Kind of room
       kind_of_room_required: Please choose a kind of room
       labels:
@@ -735,7 +735,7 @@ en:
       rateplan_adult:
         one: Price calculation for %{count} guest
         other: Price calculation for %{count} guests
-      rateplan_base_price_adult_count: 
+      rateplan_base_price_adult_count: null
       rateplan_name_tooltip: This name is displayed with the room type. e.g., Standard room - Room only
       receipt_email: Receipt Email
       receipt_email_tooltip: receipt_email Tooltip
@@ -1000,13 +1000,12 @@ en:
       bulk_update:
         changes: Changes
         confirm_and_update: Confirm and Update
-        content_info: 'Apply the changes you make on one rate plan to the others.
-
+        content_info: |-
+          Apply the changes you make on one rate plan to the others.
 
           Select "Price - net" from the left menu, write a net amount in the "Price" column and select "Apply down". All price plans will be the amount you type in.
 
-
-          Select "Price - Adjustment" from the left menu, enter a percentage or net amount in the "Price" column, select plus or minus and click "Apply down". Increase or decrease the current amount of the rate plan.'
+          Select "Price - Adjustment" from the left menu, enter a percentage or net amount in the "Price" column, select plus or minus and click "Apply down". Increase or decrease the current amount of the rate plan.
         content_title: Rooms and rates
         dates: Dates
         days: Days
@@ -1047,7 +1046,7 @@ en:
         subtitle: Increase guest satisfaction by offering services guests can purchase along with their rooms.
         subtitle_learnmore: Learn more about extras.
         title: Extras
-      guest_calculation: 
+      guest_calculation: null
       guest_relations:
         add_guest: Add Guest
         channel: Channel
@@ -1073,7 +1072,7 @@ en:
         update_modal_confirm: Your changes will be sent to the channels. Would you like to continue?
         update_modal_subtitle: Pick all the channels where you want your updates to appear.
         update_modal_subtitle_v:
-          '1': 
+          '1': null
         update_modal_subtitle_v1: Pick all the channels where you want your updates to appear.
         update_modal_title: Choose your channels
         update_room_type: Update Room Type
@@ -1091,7 +1090,7 @@ en:
         select_language: Select language
         set_main_language: Set as main language
         subtitle: Choose your languages and communicate with your guests in their own languages.
-        text_in_content: 
+        text_in_content: null
         text_in_key: Text In %{language}
         title: Languages
         translate: Translate
@@ -1372,7 +1371,7 @@ en:
         payment_total: Payment Total
         phone: Phone
         policies: Policies
-        price_required: 
+        price_required: null
         resend_confirmation: Resend Confirmation
         reservation_details: Reservation Details
         reservation_details_subtitle: Find and update your guest’s reservation info in one spot.
@@ -1402,7 +1401,7 @@ en:
         add_reservation: Add Reservation
         adult: Adult
         channel: Channel
-        check_in: 
+        check_in: null
         check_in_date: Check-in Date
         check_out: Check-out
         check_out_date: Check-out Date
@@ -1417,7 +1416,7 @@ en:
         last_seven_days: Last 7 Days
         last_thirty_days: Last 30 Days
         manage_reservations: Manage reservations
-        manage_unassigned_reservations: 
+        manage_unassigned_reservations: null
         new_reservation: New Reservation
         new_room_type: New Room Type
         next_fourteen_days: Next 14 Days
@@ -1476,12 +1475,12 @@ en:
         summary: Summary
       room_type_new:
         step1_title: What kind of room do you want to create?
-        step2_subtitle: 
+        step2_subtitle: null
         step2_title: Enter your room’s details
         step3_subtitle: This is your room’s default price. If your room rates are unable to load, guests will see this price on sales channels. We recommend entering a value as high as your most expensive rate.
         step3_title: Set your room's base price
         step4_title: Choose a cancelation policy
-        step5_subtitle: 
+        step5_subtitle: null
         step5_title: Choose your room's amenities
         step6_title: Upload room photos
       room_types:
@@ -1611,7 +1610,7 @@ en:
       bulk_update_minimum_stay: Encourage longer stays by setting a minimum stay length. Especially useful around holidays.
       bulk_update_stop_sell: Stop the sale of rate plans for certain date ranges. Useful during low seasons.
       cancellation_policy_description: Describe the conditions of your cancellation policy, the number of days before check-in, and the amount due in detail.
-      card_holder_name: 
+      card_holder_name: null
       category_description: Write a category description to help your staff understand what this category is for and which extras are included.
       category_image: Add photos related to the extra category. The photos you add here will be displayed for all the extras under the category.
       child_rate_options: Choose if you offer child pricing and for which age ranges.
@@ -1645,7 +1644,7 @@ en:
       rate_plan_date_settings: You can select available date ranges for this rate plan
       rate_plan_link: You can link pricing to another rate plan
       rate_plan_market: Choose the countries where this rate will be offered. For example, you could offer it only to guests booking from North America.
-      rate_plan_meal_plan: 
+      rate_plan_meal_plan: null
       rate_plan_select: Rate plan to be connected.
       reservation_start_end_dates: Select the reservation date range for which the coupon code will be valid.
       revenue_account: Assign the extra to the relevant revenue account.
