@@ -27,12 +27,14 @@ const formKeys = readKeys(formKeysPath);
 
 const form: Dictionary = {};
 
+logger.log(`Extracting "form" keys...\n`);
+
 for (const key of formKeys) {
   form[key] = enYml.en.lydia[key];
 
   delete enYml.en.lydia[key];
 
-  const logMessage = `\nI've found "${key}" under "lydia" and moved out to "form".`;
+  const logMessage = `I've found "${key}" under "lydia" and moved out to "form".\n`;
 
   logger.log(logMessage);
 }
@@ -43,6 +45,8 @@ fixedEnYml.en.form = form;
 const lydiaKeysPath = path.resolve(process.cwd(), "lydia-keys.txt");
 const lydiaKeys = readKeys(lydiaKeysPath);
 
+logger.log(`Extracting "lydia" keys...\n`);
+
 for (const key of lydiaKeys) {
   const isValid = !!enYml.en.lydia[key];
 
@@ -52,7 +56,7 @@ for (const key of lydiaKeys) {
 
   delete enYml.en.lydia[key];
 
-  logger.log(`I've found "${key}" under "lydia"`);
+  logger.log(`I've found "${key}" under "lydia"\n`);
 }
 
 writeYamlFile(enYmlFilename, fixedEnYml);
