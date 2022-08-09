@@ -158,7 +158,7 @@ en:
       back: Back
       base_allotment: Base Allotment
       based_in: Based in
-      'being_managed_by ': 'Being managed by '
+      being_managed_by: 'Being managed by '
       cancel: Cancel
       change: Change
       charge_for_years_old: Charge for {years} year olds

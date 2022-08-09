@@ -7,7 +7,7 @@ logger.cleanup();
 
 const enYmlFilename = "en.friday.yml";
 const ymlOutputFilename = "en.fixed.yml";
-const enRemainingFilename = 'en.remaining.yml'
+const enRemainingFilename = "en.remaining.yml";
 // const enYmlFilename = "example.yml";
 // const ymlOutputFilename = "example.output.yml";
 
@@ -25,10 +25,21 @@ enYml.en.lydia = enYml.en.form || {};
 delete enYml.en.form;
 
 // ? Fix a wrong placement and delete the redundant directory `page`
-const key = 'reservations_count'
-const translation = enYml.en.lydia.page.reservations[key]
-enYml.en.lydia.pages.reservations[key] = translation
-delete enYml.en.lydia.page
+(() => {
+  const key = "reservations_count";
+  const translation = enYml.en.lydia.page.reservations[key];
+  enYml.en.lydia.pages.reservations[key] = translation;
+  delete enYml.en.lydia.page;
+})();
+
+// ? Fix typo in a key -- also, work anyways
+(() => {
+  const key = "being_managed_by "; // ! Trailing space is intended
+  const translation = enYml.en.lydia.common[key];
+  const correctedKey = key.trimEnd();
+  enYml.en.lydia.common[correctedKey] = translation;
+  delete enYml.en.lydia.common[key];
+})();
 
 // * Part 1: Assemble the `form` directory
 const formKeysPath = path.resolve(process.cwd(), "form-keys.txt");
@@ -70,7 +81,7 @@ for (const key of lydiaKeys) {
 
 // ? Lastly, add the `examples` back, and we're done
 fixedEnYml.en.examples = enYml.en.examples;
-delete enYml.en.examples
+delete enYml.en.examples;
 
 writeYamlFile(ymlOutputFilename, fixedEnYml);
 
