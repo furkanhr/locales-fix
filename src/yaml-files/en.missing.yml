@@ -1,0 +1,30 @@
+# Missing keys at `src/pages/Reservations/cards/onlinePayments.tsx`:
+# "badge." + row.state
+# 'payment_type.' + row.payment_method.method_type
+#
+# Respectively corresponding types:
+# PaymentsModel.state
+# PaymentsModel.payment_method.method_type
+#
+# ALL KEYS BELOW GOT ADDED IN LOCALEAPP
+# THIS IS FOR REPORTING AND BACKUP
+
+en:
+  lydia:
+    badge:
+      completed: "completed" # was missing
+      failed: "failed" # was missing
+      void: "void" # was missing
+      pending: "pending" # was missing
+      waiting: "waiting" # was missing
+      checkout: "checkout" # was missing
+      in_progress: "in progress" # was missing
+      succeeded: "succeeded" # was missing
+    common:
+      no_show: "No Show" # was missing
+    form:
+      values:
+        individual: "Individual" # was EMPTY
+    pages:
+      reservation_detail:
+        check_in: "Check-in" # was EMPTY
