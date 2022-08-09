@@ -13,7 +13,8 @@
     "sort": "node dist/scripts/sort.js",
     "read-keys:form": "node dist/scripts/readKeys.js",
     "extract:paths": "node dist/scripts/extractPathsFromProd.js",
-    "build": "tsc",
+    "cleanup": "rm -rf ./dist",
+    "build": "npm run cleanup && tsc",
     "build:watch": "tsc --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
