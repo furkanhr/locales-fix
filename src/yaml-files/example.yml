@@ -1,6 +1,6 @@
 form:
-  hey_i_was_already_here: 'yep!'
-  please_dont_touch_me: 'leave me alone!'
   account:
-    label: 'Account Label'
-    title: 'Account Title'
+    label: Account Label
+    title: Account Title
+  hey_i_was_already_here: yep!
+  please_dont_touch_me: leave me alone!
