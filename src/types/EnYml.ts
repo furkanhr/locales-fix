@@ -2,7 +2,7 @@ import { Dictionary } from "./Dictionary";
 
 export interface EnYml extends Dictionary {
   en: {
-    examples: Dictionary;
+    examples?: Dictionary;
     lydia: Dictionary;
     form?: Dictionary;
   };

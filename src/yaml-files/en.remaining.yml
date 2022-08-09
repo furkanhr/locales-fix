@@ -1,0 +1,47 @@
+en:
+  lydia:
+    adult_field:
+      one: '%{count} Adult'
+      other: '%{count} Adults'
+    age_range_from_required: Age range from is required
+    age_range_to_required: Age range to is required
+    all_year_around_description: There is no date restriction for this rate plan
+    amount: null
+    area: Area
+    book_date: Book date starts-ends
+    cancellation_policy_required: Please select a cancellation policy
+    category: Category
+    category_type: Category Type
+    choose_a_room: Choose a Room
+    country_tooltip: Country
+    cover_photo: Cover Photo
+    decrease_new: Decrease base price
+    discount_rate: Discount Rate
+    display_name_required: Enter a display name
+    home: Home
+    increase_new: Increase base price
+    kind_of_room: Kind of room
+    language: Choose language
+    net_amount_new: Adjust based on a fixed amount
+    number_of_beds: Number of beds
+    payment_methods: Payment Methods
+    payment_required: Payment method is required
+    percentage_new: Adjust based on percentage
+    personal_info: Personal Info
+    personal_info_subtitle: This is how a subtitle looks like
+    rateplan_base_price_adult_count: null
+    required_field: '%{field} is required'
+    reservation_number: Reservation number
+    room_description: Room description
+    sell_online: Open to direct channels
+    stay_date: Stay Date Starts-Ends
+    street_address_line: Street Address Line 2
+    street_address_tooltip: Street Address Tooltip
+    tax_rate: Tax rate
+    title_required: Please enter a title
+    total_capacity_include_children: Total capacity (including children)
+    type_code: Type Code
+    type_code_required: Choose type
+    unit: Unit
+    variant_required: Variant id is required
+    variants: Variants

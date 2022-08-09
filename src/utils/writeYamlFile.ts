@@ -12,6 +12,7 @@ export function writeYamlFile(
   const ymlOutput = yaml.dump(data, {
     skipInvalid: true,
     lineWidth: -1,
+    sortKeys: true,
     ...options,
   });
 
