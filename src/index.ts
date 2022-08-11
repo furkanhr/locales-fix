@@ -32,6 +32,24 @@ delete enYml.en.form;
   delete enYml.en.lydia.page;
 })();
 
+// ? Delete obsolete keys
+(() => {
+  delete enYml.en.lydia.pages.guest_calculation;
+  delete enYml.en.lydia.tooltips.card_holder_name;
+})();
+
+// ? Fill in the empty keys
+(() => {
+  enYml.en.lydia.common.dismiss = "Dismiss";
+  enYml.en.lydia.common.learn_more = "Learn more";
+  enYml.en.lydia.common.start = "Start";
+  enYml.en.lydia.form.kind_id_required = "Please choose property type";
+  enYml.en.lydia.pages.reservations.price_required = "Price is required";
+  enYml.en.lydia.pages.reservation_detail.check_in = "Check-in";
+  enYml.en.lydia.pages.room_calendar.manage_unassigned_reservations =
+    "Manage unassigned reservations ";
+})();
+
 // ? Fix typo in a key -- also, work anyways
 (() => {
   const key = "being_managed_by "; // ! Trailing space is intended

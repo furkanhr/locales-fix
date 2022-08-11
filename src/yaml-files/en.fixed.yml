@@ -214,7 +214,7 @@ en:
       discard: Discard
       discard_changes: Discard Changes
       discount: Discount
-      dismiss: null
+      dismiss: Dismiss
       done: Done
       dont_send: Don't send
       duplicate: Duplicate
@@ -276,7 +276,7 @@ en:
       join: Join
       label: Label
       last_transaction_status: Last transactions status
-      learn_more: null
+      learn_more: Learn more
       learn_more_about_revenue_accounts: Learn more about revenue accounts.
       leave: Leave
       lets_go: Let's Go
@@ -407,7 +407,7 @@ en:
       skip_now: Skip for now
       smart_actions: Smart Actions
       some_rooms: Some rooms
-      start: null
+      start: Start
       status: Status
       status_advertise: Advertised
       status_expired: Expired
@@ -611,7 +611,7 @@ en:
         placeholder: Choose ID type
       include_tax: Include tax
       included_price: Included in price
-      kind_id_required: null
+      kind_id_required: Please choose property type
       kind_of_room_required: Please choose a kind of room
       labels:
         adults: Adults
@@ -1072,7 +1072,6 @@ en:
         subtitle: Increase guest satisfaction by offering services guests can purchase along with their rooms.
         subtitle_learnmore: Learn more about extras.
         title: Extras
-      guest_calculation: null
       guest_relations:
         add_guest: Add Guest
         channel: Channel
@@ -1333,7 +1332,7 @@ en:
         title: Rate Plans
       reservation_detail:
         add_additional_fee: Add Additional Fee
-        check_in: null
+        check_in: Check-in
         check_out: Check-out
         date_booked: Date booked
         delete_fee: Delete Fee
@@ -1394,7 +1393,7 @@ en:
         payment_total: Payment Total
         phone: Phone
         policies: Policies
-        price_required: null
+        price_required: Price is required
         resend_confirmation: Resend confirmation
         reservation_details: Reservation Details
         reservation_details_subtitle: Find and update your guest’s reservation info in one spot.
@@ -1427,7 +1426,7 @@ en:
         add_reservation: Add Reservation
         adult: Adult
         channel: Channel
-        check_in: null
+        check_in: Check-in
         check_in_date: Check-in Date
         check_out: Check-out
         check_out_date: Check-out Date
@@ -1442,7 +1441,7 @@ en:
         last_seven_days: Last 7 Days
         last_thirty_days: Last 30 Days
         manage_reservations: Manage reservations
-        manage_unassigned_reservations: null
+        manage_unassigned_reservations: Manage unassigned reservations
         new_reservation: New Reservation
         new_room_type: New Room Type
         next_fourteen_days: Next 14 Days
@@ -1641,7 +1640,6 @@ en:
       bulk_update_minimum_stay: Encourage longer stays by setting a minimum stay length. Especially useful around holidays.
       bulk_update_stop_sell: Stop the sale of rate plans for certain date ranges. Useful during low seasons.
       cancellation_policy_description: Describe the conditions of your cancellation policy, the number of days before check-in, and the amount due in detail.
-      card_holder_name: null
       category_description: Write a category description to help your staff understand what this category is for and which extras are included.
       category_image: Add photos related to the extra category. The photos you add here will be displayed for all the extras under the category.
       child_rate_options: Choose if you offer child pricing and for which age ranges.
