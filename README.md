@@ -5,4 +5,4 @@
 Separates back the accidentally merged `lydia` and `lydia.form` directories.
 
 ## How?
-[Here you go](https://miro.com/app/board/uXjVOgu--8Y=/)
+✈️ [Here you go](https://miro.com/app/board/uXjVOgu--8Y=/)
